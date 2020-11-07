@@ -1,0 +1,50 @@
+body{
+	background-color: #e7e7e7;
+	height: 100%;
+	padding-top: 2%;
+	padding-left: 30px;
+}
+
+.papan{
+	background-color: white;
+	height: 450px;
+	border: solid aliceblue 1px;
+	width: 450px;
+	padding-top: 20px;
+	padding-left: 20px;
+}
+
+.kotak{
+	background-color: white;
+	padding: 5px;
+	border: solid #cfd5db;
+	height: 125px;
+	width: 125px;
+	display: inline-block;
+	cursor: not-allowed;
+	background-repeat: no-repeat;
+}
+
+.player{
+	background-color: blue;
+	background-image: url("../karakter/player.png");	
+	cursor: pointer !important;
+}
+
+.enemy{
+	background-color: red;
+	background-image: url("../karakter/enemy.png");
+}
+
+.player, .enemy{
+	background-size:100%;	
+}
+
+.directTo{
+	box-shadow: rgba(60, 97, 204, 0.8) 2px 2px 10px inset;
+	cursor: crosshair !important;
+}
+
+.terpilih{
+	box-shadow: 5px 5px 8px grey;
+}
